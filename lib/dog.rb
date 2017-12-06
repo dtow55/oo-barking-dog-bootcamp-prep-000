@@ -1,5 +1,5 @@
 # Your code goes here!
-class Dog 
+class Dog
 
   def initialize(name)
     @name = name
@@ -9,8 +9,12 @@ class Dog
     @name = new_name
   end
 
+  def name
+    @name
+  end
+
   def bark
     puts "woof!"
   end
-  
+
 end
